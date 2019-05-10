@@ -1,0 +1,7 @@
+@EndUserText.label: 'Service Definition for Managing Flights'
+define service /DMO/FLIGHT_R30 {
+  expose /DMO/I_Connection_R30 as Connection;
+  expose /DMO/I_Flight_R30 as Flight;
+  expose /DMO/I_Carrier30 as Carrier;
+  expose /DMO/I_Airport30 as Airport;
+}
